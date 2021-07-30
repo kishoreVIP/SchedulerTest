@@ -1,4 +1,4 @@
-package com.sandbox.scheduler.model;
+package main.java.com.sandbox.scheduler.model;
 
 import java.time.LocalDateTime;
 
@@ -12,6 +12,8 @@ public class Task {
 		this.urgency = urgency;
 		this.category = category;
 	}
+	
+	// we can encapulate this model class with private instance variables & setter/getter
 	
 	public String toString() {
 		return "[TASK] URGENCY: " + urgency + " CATEGORY: " + category + " TIMESTAMP: " + timeStamp;

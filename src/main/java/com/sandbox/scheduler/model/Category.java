@@ -1,4 +1,4 @@
-package com.sandbox.scheduler.model;
+package main.java.com.sandbox.scheduler.model;
 
 
 public enum Category {
